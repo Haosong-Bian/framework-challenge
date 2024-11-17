@@ -109,3 +109,37 @@ footer {
     font-size: 0.9rem;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
+
+/* 导航栏样式 */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 1rem 0;
+    border-radius: 5px;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f4f4f4;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #fdbb2d;
+    color: #000;
+}
+
+nav ul li a.active {
+    background-color: #fdbb2d;
+    color: #000;
+    font-weight: bold;
+}
